@@ -1,6 +1,6 @@
 # `syskit`
 
-Personal automation and setup.
+Personal automation and setup. See `syskit/lib/docs/do.md` for full instructions.
 
 ```sh
 git clone https://github.com/marcusgeorgievski/syskit.git ~
@@ -43,6 +43,3 @@ cd lib/scripts
 brew tap Homebrew/bundle    # Ensure `brew bundle` is available
 brew bundle install         # Run the Brewfile
 ```
-
-## Notes
-# syskit
