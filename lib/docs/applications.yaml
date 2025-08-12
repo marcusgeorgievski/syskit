@@ -2,9 +2,6 @@
 # p - password required
 
 manual:
-  - magnet
-  - monitor-control-lite
-  - horo
   - screen-studio
   - Docker
   - word
