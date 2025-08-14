@@ -1,52 +1,62 @@
-# Do
+# MacBook Setup
 
-## MacBook
+## Settings
 
-- Log in to iCloud, App Store
-- Settings
-  - Scroll direction
-  - Control Center
-  - Desktop and Dock
-  - Night shift
-  - Touchpad click and tracking speed
+- Change device name
+- Hide/Show meny bar items
+- Dock hide and size
+- Night shift
+- Wallpaper
+- Add left fingerprint
+- Trackpad and scrolling
 
-## syskit
+## GitHub
 
-1. Go to https://github.com/marcusgeorgievski/syskit.git. Log in to GitHub and clone for history.
+- Sign into GitHub on Safari
+- Follow `syskit/lib/docs/github-ssh.md` SSH setup
 
 ```sh
 git clone https://github.com/marcusgeorgievski/syskit.git ~
 ```
 
-2. Install Homebrew
+## Syskit
+
+- CLoned to `~`
+- Installed Developer Tools after being prompted, waited
+- Install homebrew manually
+- Run `brew bundle install` - do other things concurrently
+- Stowed dotfiles
 
 ```sh
-cd ~/syskit/lib/scripts
-./homebrew.zsh
-```
-
-3. Install brew formulas, casks, and app store applications. Must be signed into the Mac App Store before running the bundle.
-
-```sh
+# Install packages in Brewfile
 cd lib/scripts
-brew tap Homebrew/bundle    # Ensure `brew bundle` is available
-brew bundle install         # Run the Brewfile
+brew bundle install
 ```
 
-4. Stow dotfiles
-
 ```sh
+# Stow dotfiles
 cd ~/syskit
 stow -t ~ dotfiles
+
+# Reference
+stow -t ~ -R dotfiles  # Restow (update)
+stow -t ~ -D dotfiles  # Unstow (remove symlynks)
 ```
 
-5. Install fonts, setup GitHub SSH, install manual applications
+## More
 
-## Finalize
+- Sign into Chrome, Bitwarden
+- Installed dropbox
+- Import `Me.terminal` profile
+- Oh-my-zsh install
+- Sign into VS Code
+- Installed fonts from `syskit/lib/blobs`
+- Fix any stow issues
+- Modified Finder settings
+- Desktop widgets
+- Setup other mac accounts (work or school if needed)
 
-- Log into dropbox, pull macbook files locally
-- Set raycast clipboard alias to 'cc'
-- Import Me.terminal to terminal app
-- Log in to VS and other applications
-- Widgets: Stocks, github, weather
-- Desktop and screensaver
+## Raycast
+
+- Alias for clipboard history and AI
+- OpenAI API key

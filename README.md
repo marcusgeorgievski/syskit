@@ -1,45 +1,59 @@
 # `syskit`
 
-Personal automation and setup. See `syskit/lib/docs/do.md` for full instructions.
+Personal automation and setup.
 
-```sh
-git clone https://github.com/marcusgeorgievski/syskit.git ~
-```
+> See `syskit/lib/docs/do.md` for full instructions.
 
-## `dotfiles`
+## `dotfiles/`
 
 Manage basic dotfiles and environment setup.
 
-Stow creates symlinks from a **stow directory** to a **target directory**. Run the following commands to stow files from `dotfile` to `~`.
+Use stow to create symlinks from a **stow directory** (`dotfiles/`) to a **target directory** (`~`). See `/lib/docs/do.md`.
+
+## `lib/`
+
+Additional stuff.
+
+- `blobs/` - fonts, exported configs.
+- `docs/` - how-to and other notes
+- `scripts/` - additional setup scripts, Brewfile
+
+## Structure
 
 ```sh
-cd syskit
-stow -t ~ dotfiles
-```
+syskit
+│
+├── dotfiles # this dir is stowed in ~
+│   │
+│   ├── config
+│   │   ├── tmux
+│   │   │   └── tmux.conf
+│   │   └── vscode
+│   │       └── settings.json
+│   │
+│   └── zsh # these files are sourced in .zshrc
+│       ├── aliases.zsh     # bash aliases
+│       ├── oh-my-zsh.zsh   # config
+│       ├── plugins.zsh     # shell packages
+│       ├── prompt.zsh      # shell prompt styling
+│       └── stuff.zsh       # misc, etc.
+│
+└── lib # non-dotfile stuff
+    │
+    ├── blobs # useful files
+    │   ├── cmunbi.ttf
+    │   ├── cmunbx.ttf
+    │   ├── cmunrm.ttf
+    │   ├── cmunti.ttf
+    │   ├── JetBrainsMonoNerdFontMono-Regular.ttf
+    │   └── Me.terminal
+    │
+    ├── docs # useful docs
+    │   ├── applications.yaml
+    │   ├── do.md
+    │   └── github-ssh.md
+    │
+    └── scripts # automate app/package installations
+        └── Brewfile
 
-**Reference**
-
-```sh
--d  # stow dir
--t  # target dir
-stow -t ~ -R dotfiles  # Restow (update)
-stow -t ~ -D dotfiles  # Unstow (remove symlynks)
-```
-
-## `lib`
-
-Install and setup applications.
-
-1. Install Homebrew
-
-```sh
-./homebrew.zsh
-```
-
-2. Install brew formulas, casks, and app store applications. Must be signed into the Mac App Store before running the bundle.
-
-```sh
-cd lib/scripts
-brew tap Homebrew/bundle    # Ensure `brew bundle` is available
-brew bundle install         # Run the Brewfile
 ```
