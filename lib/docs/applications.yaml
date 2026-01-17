@@ -7,41 +7,13 @@ manual:
   - word
   - excel
   - powerpoint
-  - raycast
-
-brew:
-  formulae:
-    - gcc
-    - go
-    - tree
-    - jq
-    - wget
-    - stow
-    - neofetch
-    - tmux
-    - python
-    - hadolint
-    - zsh-autosuggestions
-    - zsh-syntax-highlighting # s
-    - postgresql # s
-    - mysql # s
-    - sqlite
-
-  casks:
-    - google-chrome
-    - bitwarden
-    - dropbox
-    - visual-studio-code
-    - docker
-    - discord
-    - maccy
-    - shortcat
-    - spotify
-    - steam
-    - sublime-text
-    - whatsapp
+  - raycast [clipboard, color picker]
+  - wispr flow
+  - Cursor
 
 others:
   - node
   - pnpm
   - parallels
+  - RE4
+  - Cisco client (guelph)

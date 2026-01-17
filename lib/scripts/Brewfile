@@ -10,6 +10,7 @@
 # Formulae - Command line tools and libraries
 brew "gcc"
 brew "go"
+brew "r"
 brew "tree"
 brew "jq"
 brew "wget"
@@ -38,9 +39,12 @@ cask "spotify"
 cask "steam"
 cask "sublime-text"
 cask "whatsapp"
+cask "rstudio"
+cask "ghostty"
 
 # App Store apps
 mas "Magnet", id: 441258766
+mas "Goodnotes: AI Notes, Docs, PDF", id: 1444383602
 mas "MonitorControl Lite", id: 1595464182
 mas "Horo - Timer for Menu Bar", id: 1437226581
 mas "Pages", id: 409201541

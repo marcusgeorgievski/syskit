@@ -21,7 +21,7 @@ git clone https://github.com/marcusgeorgievski/syskit.git ~
 
 ## Syskit
 
-- CLoned to `~`
+- Cloned to `~`
 - Installed Developer Tools after being prompted, waited
 - Install homebrew manually
 - Run `brew bundle install` - do other things concurrently
@@ -51,10 +51,11 @@ stow -t ~ -D dotfiles  # Unstow (remove symlynks)
 - Oh-my-zsh install
 - Sign into VS Code
 - Installed fonts from `syskit/lib/blobs`
-- Fix any stow issues
-- Modified Finder settings
+- Fix stow issues
+- Modify Finder settings
 - Desktop widgets
-- Setup other mac accounts (work or school if needed)
+- Setup other mac accounts (work, school)
+- Stock and weather desktop widget
 
 ## Raycast
 
