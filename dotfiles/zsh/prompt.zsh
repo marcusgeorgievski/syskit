@@ -20,16 +20,16 @@ ZSH_THEME_GIT_PROMPT_STAGED="%F{cyan}●%f"
 ZSH_THEME_GIT_PROMPT_UNSTAGED="%F{red}●%f"
 
 # Prompt variables
-FOLDER=$'%F{blue} %1~%f'
+FOLDER=$'%F{blue}  %1~%f'
 PROMPT_ARROW='%F{green}➜%f'
 NEWLINE=$'\n'
 TIMEFMT=$'%D{%H:%M:%S} %D{%p}'
 NAME=$'%F{green}%n%f'
 
-# Right prompt
+# Left prompt
 PROMPT='$FOLDER  $(git_prompt_info) $NEWLINE $PROMPT_ARROW '
 
-# Left prompt
+# Right prompt
 RPROMPT='  $(battery_level)%%  %F{gray}$TIMEFMT%f'
 
 # Icons

@@ -60,4 +60,3 @@ stow -t ~ -D dotfiles  # Unstow (remove symlynks)
 ## Raycast
 
 - Alias for clipboard history and AI
-- OpenAI API key

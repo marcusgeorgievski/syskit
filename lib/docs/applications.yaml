@@ -1,19 +1,14 @@
-# s - setup message
-# p - password required
-
 manual:
   - screen-studio
-  - Docker
-  - word
-  - excel
-  - powerpoint
+  - Docker (Rosetta needed)
+  - word, excel, powerpoint
   - raycast [clipboard, color picker]
   - wispr flow
   - Cursor
 
 others:
-  - node
-  - pnpm
+  - node (via fnm)
+  - npm/pnpm
   - parallels
   - RE4
   - Cisco client (guelph)
