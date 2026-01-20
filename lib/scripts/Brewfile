@@ -20,12 +20,14 @@ brew "tmux"
 brew "python"
 brew "fnm"
 brew "hadolint"
-brew "zsh-autosuggestions"
-brew "zsh-syntax-highlighting"
 brew "postgresql"
 brew "mysql"
 brew "sqlite"
 brew "mas"
+brew "zsh-autosuggestions"
+brew "zsh-syntax-highlighting"
+brew "zsh-you-should-use"
+brew "fzf"
 
 # Casks - GUI applications
 cask "google-chrome"
@@ -40,6 +42,7 @@ cask "sublime-text"
 cask "whatsapp"
 cask "rstudio"
 cask "ghostty"
+brew "nikitabobko/tap/aerospace"
 
 # App Store apps
 mas "Magnet", id: 441258766

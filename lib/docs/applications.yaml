@@ -2,9 +2,9 @@ manual:
   - screen-studio
   - Docker (Rosetta needed)
   - word, excel, powerpoint
-  - raycast [clipboard, color picker]
+  - raycast [c=clipboard, s=settings, g=ghostty, ch=chrome, v=vscode]
   - wispr flow
-  - Cursor
+  - Cursor?
 
 others:
   - node (via fnm)

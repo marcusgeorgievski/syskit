@@ -3,8 +3,10 @@
 # Navigation
 alias d='cd ~/Desktop'
 alias s='cd ~/Desktop/src'
+alias dd='cd ~/Library/CloudStorage/Dropbox'
 alias h='cd ~'
 alias up='cd ..'
+alias f='open "$(fzf)"'
 
 # npm
 alias dev='npm run dev'
