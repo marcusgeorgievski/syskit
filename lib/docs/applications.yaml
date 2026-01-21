@@ -5,10 +5,10 @@ manual:
   - raycast [c=clipboard, s=settings, g=ghostty, ch=chrome, v=vscode]
   - wispr flow
   - Cursor?
+  - UTM
 
 others:
-  - node (via fnm)
-  - npm/pnpm
+  - node/npm (via fnm)
   - parallels
   - RE4
   - Cisco client (guelph)
