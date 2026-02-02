@@ -64,7 +64,7 @@ fdp() {
 }
 
 # Find project directories and open in vscode
-fdvp() { 
+fdpv() { 
   local dir
   dir="$(_find_projects)" || return
   code "$dir"
