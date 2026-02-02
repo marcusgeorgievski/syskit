@@ -28,6 +28,11 @@ brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 brew "zsh-you-should-use"
 brew "fzf"
+brew "fd"
+brew "eza"
+brew "ripgrep"
+brew "fswatch"
+brew "ollama"
 
 # Casks - GUI applications
 cask "google-chrome"
@@ -44,6 +49,7 @@ cask "rstudio"
 cask "ghostty"
 cask "nikitabobko/tap/aerospace"
 cask "appcleaner"
+cask "aerospace"
 
 # App Store apps
 mas "Magnet", id: 441258766

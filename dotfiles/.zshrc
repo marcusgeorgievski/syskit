@@ -4,5 +4,4 @@ source ~/zsh/aliases.zsh
 source ~/zsh/plugins.zsh
 source ~/zsh/prompt.zsh
 source ~/zsh/stuff.zsh
-
-eval "$(fnm env --use-on-cd --shell zsh)"
+source ~/zsh/functions.zsh

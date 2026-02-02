@@ -8,7 +8,7 @@ manual:
   - UTM
 
 others:
-  - node/npm (via fnm)
+  - node/npm (via fnm), pnpm (via node corepack)
   - parallels
   - RE4
   - Cisco client (guelph)

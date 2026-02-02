@@ -6,7 +6,6 @@ alias s='cd ~/Desktop/src'
 alias dd='cd ~/Library/CloudStorage/Dropbox'
 alias h='cd ~'
 alias up='cd ..'
-alias f='open "$(fzf)"'
 
 # npm
 alias dev='npm run dev'
@@ -19,3 +18,4 @@ alias dlogs='docker-compose logs -f'
 
 # Git
 alias gs='git status'
+alias gco='git branch | sed "s/^..//" | fzf | xargs git checkout'
